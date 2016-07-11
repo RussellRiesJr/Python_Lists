@@ -19,8 +19,13 @@ def add_pluto():
   print(planet_list)
 
 def slice_planets():
+  rocky_planets = []
   sliceObj = slice(0,4)
-  print(planet_list[sliceObj])
+  rocky_planets = planet_list[sliceObj]
+  print(rocky_planets)
+
+def delete_pluto():
+
 
 def call_all():
   add_planets()
