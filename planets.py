@@ -25,7 +25,8 @@ def slice_planets():
   print(rocky_planets)
 
 def delete_pluto():
-
+  del planet_list[8]
+  print(planet_list)
 
 def call_all():
   add_planets()
@@ -33,6 +34,7 @@ def call_all():
   update_planets()
   add_pluto()
   slice_planets()
+  delete_pluto()
 
 import code
 code.interact(local=locals())
