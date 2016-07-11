@@ -14,10 +14,17 @@ def update_planets():
   planet_list.insert(2, "Earth")
   print(planet_list)
 
+def add_pluto():
+  planet_list.append("Pluto")
+  print(planet_list)
+
+
+
 def call_all():
   add_planets()
   more_planets()
   update_planets()
+  add_pluto()
 
 import code
 code.interact(local=locals())
