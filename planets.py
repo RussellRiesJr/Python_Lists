@@ -18,13 +18,16 @@ def add_pluto():
   planet_list.append("Pluto")
   print(planet_list)
 
-
+def slice_planets():
+  sliceObj = slice(0,4)
+  print(planet_list[sliceObj])
 
 def call_all():
   add_planets()
   more_planets()
   update_planets()
   add_pluto()
+  slice_planets()
 
 import code
 code.interact(local=locals())
